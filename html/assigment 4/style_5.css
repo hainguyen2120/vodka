@@ -1,0 +1,47 @@
+.box-left{
+    width: 1430px;
+    height: 350px;
+    background-image: url("image/Untitled-1.jpg");
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: initial;
+    font-size: 30;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+}
+.box-left h1 span{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    font-size: 48px;
+}
+.box-left h1{
+    font-weight: initial;
+    font-family: Montserrat;
+    color: white;
+    font-size: 48px;
+}
+.box-right{
+    width: 170px;
+    height: 300px;
+    box-sizing: border-box;
+}
+.box-right h1{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+.box-right h2{
+    font-family: Montserrat;
+    font-size: 13px;
+}
+.box-right p{
+    font-family: roboto;
+    font-size: 15px;
+}
+.box-top{
+    width: 270px;
+    height: 500px;
+}
