@@ -1,0 +1,120 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+section.content{
+    float: left;
+    width: 100%;
+}
+footer{
+    float: left;
+    width: 100%;
+}
+.top-link{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.header-main{
+    float: left;
+    width: 100%;
+    height: 120px;
+}
+.content{
+    float: none;
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+.currency{
+    float: left;
+    width: 30%;
+    padding: 15px 0px 15px 87px;
+}
+.links{
+    float: right;
+    width: 20%;
+    padding: 15px 10px 15px 10px;
+}
+.logo{
+    float: left;
+    padding: 40px 0px 35px 87px;
+}
+.home{
+    float: left;
+    padding-left: 85px;
+}
+.product{
+    float: left;
+    padding-left: 45px;
+}
+.deal{
+    float: left;
+    padding-left: 45px;
+}
+.about{
+    float: left;
+    padding-left: 45px;
+}
+.contact{
+    float: left;
+    padding-left: 45px;
+}
+.links1{
+    float: left;
+    padding: 50px 0px 50px 85px;
+}
+.icons{
+    float: right;
+    width: 20%;
+    padding: 50px 0px 50px 10px;
+}
+.content_section1{
+    float: left;
+    width: 30%;
+    padding: 100px 0px 150px 250px;
+}
+.content_section2{
+    float: left;
+    width: 50%;
+    padding: 100px 0px 100px 0px;
+}
+.choos{
+    float: left;
+    width: 20%%;
+}
+.choos1{
+    float: right;
+    width: 20%;
+}
+.content_section3{
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content_section4{
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price{
+    float: left;
+    width: 20%;
+}
+.icons1{
+    float: right;
+    width: 20%;
+}
+.content_section5{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
