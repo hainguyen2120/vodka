@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyen Minh Hai</title>
+    <link type="text/css" rel="stylesheet" href="css/style_9.css"/>
+    <link type="text/css" rel="stylesheet" href="css/all.css"/>
+    <script type="text/javascript" src="jquery/jquary.js"></script>
+</head>
+<body>
+    <h1>món ăn đặc trưng của Hà Nội</h1>
+        <div id="text_jq" class="currency">
+            <div class="text">Phở</div>
+            <img src="image/1.jpg" width="200px" height="200px"/><br/>
+                <span>Phở là một trong những niềm tự hào của người Hà Nội. Phở hấp dẫn<br/>
+                    bởi nước dùng có hương vị ngọt thanh mát và bổ dưỡng, bánh phở<br/>
+                    mềm, dai đi cùng với thịt bò hay gà cắt lát mỏng. Phở ăn kèm với các<br/>
+                    gia vị như: tương, tiêu, chanh, nước mắm, ớt... Phở có thể dùng làm<br/>
+                    bữa điểm tâm, ăn trưa, chiều hoặc tối.</span>
+        </div>
+    <div class="icons">
+        <div class="icons1">
+            <button type="button" onclick="left()"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="icons2">
+            <button type="button" onclick="right()"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function left() {
+            var d = $("div#text_jq.currency");
+
+        }
+        function right() {
+            var d = $("div#text_jq.currency");
+            d.html("<div class='text'>Cốm Vòng</div>" +
+                "<img src='image/6.jpg' width='200px' height='200px'/><br/>" +
+                "<span>Cốm làng Vòng từ lâu đã trở thành một trong những thức quà đặc trưng<br/>" +
+                " cho ẩm thực của Hà Nội. Hạt cốm dẻo thơm, vị ngọt thanh thanh, nhẹ nhàng như sữa non.<br/>" +
+                " Cốm truyền thống được gói trong lá sen, buộc dây rơm nếp nên thoang thoảng mùi hương dễ chịu.<br/>" +
+                " Từ cốm, người Hà thành tạo ra nhiều thức quà khác, góp phần làm phong phú<br/>" +
+                " thêm ẩm thực mùa thu Hà Nội như: Chả cốm, xôi cốm, bánh cốm, chè cốm...</span>")
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    background-color: #00ECB9;
+    text-align: center;
+}
+.currency{
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    width: auto;
+    background-color:#00BF96;
+}
+.currency div{
+    width: auto;
+    background: #00BF96;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.currency span{
+    background: #00BF96;
+}
+.text{
+    padding: 20px;
+    font-size: 40px;
+}
+h1{
+    color: #396;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 40px 0px 40px 0px;
+}
+.icons{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.icons1{
+    display: inline-block;
+    padding: 15px;
+}
+.icons2{
+    display: inline-block;
+    padding: 15px;
+}
