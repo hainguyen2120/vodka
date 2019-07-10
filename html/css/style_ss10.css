@@ -1,0 +1,69 @@
+*{
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #171717;
+    width: 100%;
+    height: auto;
+}
+section{
+    float: left;
+    width: 100%;
+}
+footer{
+    float: left;
+    width: 100%;
+}
+.currency{
+    float: left;
+    width: 50%;
+    margin-left: 100px}
+.click{
+    float: left;
+}
+.click1{
+    float: left;
+    margin-left: 10px;
+}
+.click2{
+    background-color: #00BF96;
+    margin-left: 40px;
+}
+.header-main{
+    background-color: lightgray;
+    width: 100%;
+    float: left;
+}
+.text{
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+}
+.text1{
+    float: left;
+}
+.text2{
+    float: left;
+    margin-left: 10px;
+}
+.text3{
+    float: left;
+    margin-left: 10px;
+}
+.text4{
+    float: left;
+    margin-left: 10px;
+}
+.text5{
+    float: left;
+    margin-left: 10px;
+}
+.search{
+    float: left;
+    margin-left: 10px;
+}
+.content_section1{
+    width: 100%;
+    background-image: url();
+}

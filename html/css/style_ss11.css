@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    float: left;
+    width: 100%;
+    height: 750px;
+    box-sizing: border-box;
+    background-image: url("../images/image.jpg");
+}
+main{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+footer{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav a{
+    padding: 14px 16px;
+    list-style-type: none;
+    display: inline-block;
+    color: snow;
+}
+nav img{
+    padding-top: 40px;
+    margin-right: 90px;
+    margin-left: 280px;
+    text-align: center;
+}
+article{
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+}
+article h1{
+    font-size: 65px;
+    color: white;
+}
+article p{
+    font-size: 22px;
+    color: white;
+}
+.container{
+    float: none;
+    margin: 0 auto;
+    position: relative;
+}
+section{
+    background-color: #ffffff;
+}
+.content{
+    width: 100%;
+    float: left;
+    display: table;
+    text-align: center;
+    padding: 100px 190px;
+}
+.content_section{
+    float: left;
+    width: 33.33%;
+}
+.content_section1{
+    float: left;
+    width: 33.33%;
+}
+.content_section2{
+    float: left;
+    width: 33.33%;
+}
+.icons{
+    font-size: 65px;
+    color: red;
+}
+.info{
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 100px 190px;
+}
+.info1{
+    float: left;
+    width: 25%;
+}
+.info2{
+    float: left;
+    width: 25%;
+}
+.info3{
+    float: left;
+    width: 25%;
+}
+.info4{
+    float: left;
+    width: 25%;
+}
+.icons1{
+    font-size: 30px;
+}
+.ready{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ready h1{
+    font-size: 28px;
+}
+.footer_section{
+    width: 100%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    padding: 60px 190px;
+    background-color: #3a3e64;
+    color: white;
+}
+.footer_section1{
+    float: left;
+    width: 33.33%;
+}
+.footer_section2{
+    float: left;
+    width: 33.33%;
+}
+.footer_section3{
+    float: left;
+    width: 33.33%;
+}
+.icons2{
+    font-size: 30px;
+}
+.copyright{
+    background-color: #313454;
+    text-align: center;
+    color: gray;
+}
+button{
+    background-color: red;
+    color: white;
+    width: 280px;
+    height: 45px;
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+}
+body{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 800px){
+    header{
+    width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .container nav{
+        width: 100%;
+    }
+    .container nav img{
+        width: 50%;
+        float: left;
+        margin-left: auto;
+    }
+    .container nav a{
+        width: 50%;
+    }
+    .container article{
+        width: 100%;
+    }
+
+}
