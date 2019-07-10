@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyen Minh Hai</title>
+</head>
+<body>
+   <h1>MATRIMONIAL SURVEY</h1>
+   <div class="table">
+       <h2>Personal Details:</h2>
+       <table border="1">
+           <tbody>
+           <tr>
+               <td>Name:</td>
+               <td>
+                   <input type="text" name="name" placeholder="" required>
+               </td>
+           </tr>
+           <tr>
+               <td>Address:</td>
+               <td>
+                   <select>
+                       <option value="..."></option>
+                       <option value="...">Ha Noi</option>
+                       <option value="...">TP Ho Chi Minh</option>
+                       <option value="...">Da Nang</option>
+                   </select>
+               </td>
+           </tr>
+           <tr>
+               <td>Phone:</td>
+               <td>
+                   <input type="number" name="phone" required>
+               </td>
+           </tr>
+           <tr>
+               <td>E-Mail:</td>
+               <td>
+                   <input type="text" name="email" required>
+               </td>
+           </tr>
+           <tr>
+               <td>Gender:</td>
+               <td>
+                   <input type="radio" name="male" value="male" required>Male
+                   <input type="radio" name="female" value="female" required>Female
+               </td>
+           </tr>
+           <tr>
+               <td>Age:</td>
+               <td>
+                   <input type="number" name="age" required>
+               </td>
+           </tr>
+           <tr>
+               <td>Qualification</td>
+               <td>
+                   <input type="checkbox" name="qualification" required>BCA
+                   <input type="checkbox" name="qualification" required>BA
+                   <input type="checkbox" name="qualification" required>BSC
+               </td>
+           </tr>
+           </tbody>
+       </table>
+   </div>
+
+<div class="click">
+    <button type="button" onclick="left()">Continue</button>
+    <button type="button" onclick="right()">Reset</button>
+</div>
+
+<script type="text/javascript">
+    function left() {
+        var d = $("div#table.currency");
+        d.html("<h2>Suvery Question:</h2>" +
+            "<table border='1'>" +
+            "<tbody>" +
+            "<tr>" +
+            "<td>How often you are surfing this site?</td>" +
+            "<td>" +
+            "Daily<input type='radio' name='...' required>" +
+            "Weekly<input type='radio' name='...' required>" +
+            "Monthly<input type='radio' name='...' required></td></tr>" +
+            "<tr>" +
+            "<td>Which matrimonial site you visit mostly?</td>" +
+            "<td>" +
+            "<input type='text' name='....'></td></tr>" +
+            "<tr>" +
+            "<td>Where you use Internet?</td>" +
+            "<td>" +
+            "Home<input type='radio' name='home' required>" +
+            "Office<input type='radio' name='office' required>" +
+            "Cyber cafe<input type='radio' name='cyber' required></td></tr>" +
+            "<tr>" +
+            "<td>Are you feel services provided by us?</td>" +
+            "<td>" +
+            "Fair<input type='radio' name='fair'>" +
+            "Good<input type='radio' name='good'>" +
+            "Very good<input type='radio' name='verygood'>" +
+            "Excellent<input type='radio' name='.....'></td></tr>" +
+            "</tbody></table>")
+    }
+</script>
+</body>
+</html>
